@@ -1,2 +1,4 @@
 # Avoid GitHub API authentication when building locally.
 github: [metadata]
+
+baseurl: "/"
