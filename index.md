@@ -1,7 +1,7 @@
 ---
 title: Home
 book: vignelli-canon.md
-tags: one, two
+tags: one, two, Philosophy
 ---
 {% assign related_book = site.pages | where: "path", page.book | first %}
 References:

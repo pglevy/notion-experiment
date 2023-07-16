@@ -1,4 +1,8 @@
 # Avoid GitHub API authentication when building locally.
 github: [metadata]
 
-baseurl: "/"
+# baseurl: http://127.0.0.1:4000
+
+collections:
+  themes:
+    output: true

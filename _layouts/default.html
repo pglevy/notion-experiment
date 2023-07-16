@@ -9,15 +9,15 @@
 
   <link rel="icon" href="favicon.ico" sizes="any">
 
-  <link rel="stylesheet" href="assets/css/primer.css">
-  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/primer.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
 </head>
 
 <body class="{% if page.body-style %}{{ page.body-style }}{% else %}p-3{% endif %}">
   <main class="{% if page.main-style %}{{ page.main-style }}{% else %}container-md markdown-body{% endif %}">
     {{ content }}
   </main>
-  <script src="assets/js/main.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
 </body>
 
 </html>
