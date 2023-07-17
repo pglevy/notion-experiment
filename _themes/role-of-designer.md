@@ -1,6 +1,5 @@
 ---
-title: Role of Designer
-layout: default
+title: Role of designer
 ---
 
 # {{ page.title }}

@@ -1,0 +1,10 @@
+{% assign this_page = page.title | capitalize %}
+{% assign all_pages = site.pages %}
+{% assign themes = all_pages.themes | capitalize %}
+    {% for item in all_pages %}
+        {% if item.themes contains this_page %}
+        <ul>
+            <li><a href="{%link {{ item.path }} %}">{{ item.title }}</a></li>
+        </ul>
+    {% endif %}
+{% endfor %}

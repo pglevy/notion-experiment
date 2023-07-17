@@ -6,3 +6,11 @@ github: [metadata]
 collections:
   themes:
     output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "themes"
+    values:
+      layout: "theme"
