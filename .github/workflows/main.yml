@@ -1,0 +1,4 @@
+jobs:
+  create_backlinks:
+    - name: Maintain backlinks in wiki
+      uses: sander/note-link-janitor@v5 
