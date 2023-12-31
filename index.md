@@ -3,6 +3,11 @@ title: Home
 book: vignelli-canon.md
 tags: one, two, Philosophy
 ---
+
+Go to the [third page]({% link third-page.md %})
+
+this
+
 {% assign related_book = site.pages | where: "path", page.book | first %}
 References:
 - [{{ related_book.title }}]({% link {{ page.book }} %})

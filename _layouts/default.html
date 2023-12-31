@@ -16,6 +16,7 @@
 <body class="{% if page.body-style %}{{ page.body-style }}{% else %}p-3{% endif %}">
   <main class="{% if page.main-style %}{{ page.main-style }}{% else %}container-md markdown-body{% endif %}">
     {{ content }}
+    {% include backlinks.html %}
   </main>
   <script src="{{ site.baseurl }}/assets/js/main.js"></script>
 </body>
