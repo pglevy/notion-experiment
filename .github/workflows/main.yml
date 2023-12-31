@@ -1,8 +1,14 @@
-name: Create Backlinks
-on: push
+name: Note Link Janitor
+
+on:
+  gollum:
+  workflow_dispatch:
+
 jobs:
-  create_backlinks:
+  update:
     runs-on: ubuntu-latest
     steps:
-    - name: Maintain backlinks in wiki
-      uses: sander/note-link-janitor@v5
+      - uses: actions/checkout@v2
+        with:
+          repository: ${{github.repository}}.wiki
+      - uses: sander/note-link-janitor@v5
