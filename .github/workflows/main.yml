@@ -1,5 +1,8 @@
+name: Create Backlinks
+on: push
 jobs:
   create_backlinks:
+    runs-on: ubuntu-latest
     steps:
     - name: Maintain backlinks in wiki
-    uses: sander/note-link-janitor@v5
+      uses: sander/note-link-janitor@v5
