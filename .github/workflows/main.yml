@@ -10,5 +10,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: https://github.com/pglevy/notion-experiment/wiki
+          repository: https://github.com/pglevy/notion-experiment.wiki.git
       - uses: sander/note-link-janitor@v5
